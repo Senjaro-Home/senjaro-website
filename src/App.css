@@ -75,6 +75,10 @@ nav {
 .active {
   color: var(--main-bg-color);
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 
 .twt {
   height: 45px;

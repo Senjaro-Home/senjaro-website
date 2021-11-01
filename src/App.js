@@ -13,9 +13,9 @@ function App() {
       <header className="App-header">
         <nav> 
           <img src={logo} className="logo" alt="warning button" />
-          <a className="nav-item active">Home</a>
-          <a className="nav-item">About</a>
-          <a className="nav-item">Contact Us</a>
+          <a href="/#" className="nav-item active">Home</a>
+          <a href="/#" className="nav-item">About</a>
+          <a href="/#" className="nav-item">Contact Us</a>
         </nav>
         <img src={mshangao} className="warning-logo" alt="warning button" />
         <p className="text">
@@ -25,23 +25,23 @@ function App() {
 
         <div className="img">
           <a href="https://play.google.com/store/apps/details?id=com.senjaro&hl=en&gl=US" rel="noopener noreferrer">
-            <img src={android} className="App-logo-android" alt="logo" />
+            <img src={android} className="App-logo-android" alt="android app logo"  />
           </a>
 
           <a href="https://apps.apple.com/tz/app/senjaro/id1474006471#?platform=iphone
           " rel="noopener noreferrer">
-            <img src={ios} className="App-logo-ios" alt="android button" />
+            <img src={ios} className="App-logo-ios" alt="ios-app-logo" />
           </a>
         </div>
         <div className="social-media-icons">
-          <a href="https://www.facebook.com/senjarotz" target="_blank">
-            <img src={facebook} className="socail-media fb" />
+          <a href="https://www.facebook.com/senjarotz" target="_blank" rel="noreferrer">
+            <img src={facebook} className="socail-media fb" alt="facebook logo" />
           </a>
-          <a href="https://www.instagram.com/senjaro_tz/" target="_blank">
-            <img src={instagram} className="socail-media ig" />
+          <a href="https://www.instagram.com/senjaro_tz/" target="_blank" rel="noreferrer">
+            <img src={instagram} className="socail-media ig" alt="instagram logo" />
           </a>
-          <a href="https://twitter.com/Senjarotz" target="_blank">
-            <img src={twitter} className="socail-media twt" />
+          <a href="https://twitter.com/Senjarotz" target="_blank" rel="noreferrer">
+            <img src={twitter} className="socail-media twt" alt="twitter logo" />
           </a>
         </div>
       </header>
